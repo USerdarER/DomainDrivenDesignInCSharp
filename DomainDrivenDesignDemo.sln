@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.API", "DDD.API\DDD.API.csproj", "{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Contracts", "DDD.Contracts\DDD.Contracts.csproj", "{452F46F0-696B-4F71-B590-7011299E2725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infrastructure", "DDD.Infrastructure\DDD.Infrastructure.csproj", "{667D08D5-B379-438C-B116-7FA1AB2DF9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Application", "DDD.Application\DDD.Application.csproj", "{A63C7AC3-C71D-432E-B85B-3B585458F48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{4B1A3494-CEFB-427C-A372-2BAE79054ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{2E2EB9DB-E3D5-41A2-BAC5-A910B1324E07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{07CEE226-BEC6-488E-9ED9-904C5B29E23E}"
+	ProjectSection(SolutionItems) = preProject
+		GetWeatherForecast.http = GetWeatherForecast.http
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BE365DEB-6E05-4BA9-BBE7-CD02397FC14C}"
+	ProjectSection(SolutionItems) = preProject
+		Api.md = Api.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{949F94E2-C3A3-4555-864E-D9A59AA803A8}"
+	ProjectSection(SolutionItems) = preProject
+		Login.http = Login.http
+		Register.http = Register.http
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452F46F0-696B-4F71-B590-7011299E2725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452F46F0-696B-4F71-B590-7011299E2725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452F46F0-696B-4F71-B590-7011299E2725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452F46F0-696B-4F71-B590-7011299E2725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667D08D5-B379-438C-B116-7FA1AB2DF9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667D08D5-B379-438C-B116-7FA1AB2DF9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667D08D5-B379-438C-B116-7FA1AB2DF9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667D08D5-B379-438C-B116-7FA1AB2DF9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63C7AC3-C71D-432E-B85B-3B585458F48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63C7AC3-C71D-432E-B85B-3B585458F48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63C7AC3-C71D-432E-B85B-3B585458F48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63C7AC3-C71D-432E-B85B-3B585458F48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1A3494-CEFB-427C-A372-2BAE79054ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1A3494-CEFB-427C-A372-2BAE79054ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1A3494-CEFB-427C-A372-2BAE79054ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1A3494-CEFB-427C-A372-2BAE79054ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07CEE226-BEC6-488E-9ED9-904C5B29E23E} = {2E2EB9DB-E3D5-41A2-BAC5-A910B1324E07}
+		{949F94E2-C3A3-4555-864E-D9A59AA803A8} = {2E2EB9DB-E3D5-41A2-BAC5-A910B1324E07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B2B2799-6321-441D-BA7C-AC927C4F37B8}
+	EndGlobalSection
+EndGlobal

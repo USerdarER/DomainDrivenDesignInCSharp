@@ -1,0 +1,9 @@
+@host = https://localhost:7004
+
+POST {{host}}/auth/login
+Content-Type: Application/json
+
+{
+  "email" : "sydney.page@turner.com",
+  "password" : "*7dabbh5842.df"
+} 
