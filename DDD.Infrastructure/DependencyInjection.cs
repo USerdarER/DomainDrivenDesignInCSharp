@@ -12,6 +12,7 @@ namespace DDD.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
+            // TODO : ADD İNFRASTRUCTURE TO DI CONTAINER
             return services;
         }
     }
