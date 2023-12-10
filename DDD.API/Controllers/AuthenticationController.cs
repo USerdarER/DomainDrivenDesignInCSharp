@@ -1,4 +1,4 @@
-﻿using DDD.Application.Services.Authentication;
+﻿ using DDD.Application.Services.Authentication;
 using DDD.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
 

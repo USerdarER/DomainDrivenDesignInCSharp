@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.API", "DDD.API\DDD.API.csproj", "{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.API", "DDD.API\DDD.API.csproj", "{B4E1F83A-F3EF-4408-8ED9-80CE1368C4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Contracts", "DDD.Contracts\DDD.Contracts.csproj", "{452F46F0-696B-4F71-B590-7011299E2725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Contracts", "DDD.Contracts\DDD.Contracts.csproj", "{452F46F0-696B-4F71-B590-7011299E2725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infrastructure", "DDD.Infrastructure\DDD.Infrastructure.csproj", "{667D08D5-B379-438C-B116-7FA1AB2DF9FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infrastructure", "DDD.Infrastructure\DDD.Infrastructure.csproj", "{667D08D5-B379-438C-B116-7FA1AB2DF9FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Application", "DDD.Application\DDD.Application.csproj", "{A63C7AC3-C71D-432E-B85B-3B585458F48A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Application", "DDD.Application\DDD.Application.csproj", "{A63C7AC3-C71D-432E-B85B-3B585458F48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{4B1A3494-CEFB-427C-A372-2BAE79054ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{4B1A3494-CEFB-427C-A372-2BAE79054ACC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{2E2EB9DB-E3D5-41A2-BAC5-A910B1324E07}"
 EndProject
